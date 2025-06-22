@@ -1,4 +1,5 @@
 # React Batch UI
+React Batch UI is a tiny but powerful helper that makes your React app feel smoother and faster. Every time you call setState, React schedules a re-render. But what if you’re calling it 5 times in a row? That’s 5 render cycles, causing your app to stutter or waste performance. This package fixes that. It groups your UI updates, animations, and DOM changes together, and runs them in one go — just like magic ✨.
 
 🧠 **Smart UI Mutation Scheduler** - DOM + State + Animation Coalescer
 
@@ -170,11 +171,7 @@ interface BatchOperation {
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our contributing guidelines for details.
-
-## 📄 License
-
-MIT License - see LICENSE file for details.
+Contributions are welcomed! Please see our contributing guidelines for details.
 
 ---
 
